@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/default_300dp"
+    android:layout_height="@dimen/default_150dp"
+    android:elevation="@dimen/default_10dp"
+    app:cardElevation="@dimen/default_10dp"
+    app:cardCornerRadius="@dimen/default_10dp"
+    android:layout_margin="@dimen/default_14dp"
+    android:background="@color/black"
+    android:backgroundTint="@color/color_transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageViewSpotlight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.cardview.widget.CardView>
